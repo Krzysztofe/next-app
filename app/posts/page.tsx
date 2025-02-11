@@ -7,7 +7,7 @@ export default async function PostsMain() {
   const data = await resp.json();
   const transactions = data.transactions;
 
-  console.log("sss");
+
 
   return (
     <main className="text-center pt-32 px-5">
