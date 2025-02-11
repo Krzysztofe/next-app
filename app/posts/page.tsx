@@ -7,11 +7,9 @@ export default async function PostsMain() {
   const data = await resp.json();
   const transactions = data.transactions;
 
-
-
   return (
     <main className="text-center pt-32 px-5">
-      <h1 className="text-4xl md:text-5xl font-bold mb-5">Posty</h1>
+      <h1 className="text-4xl md:text-5xl font-bold mb-5">Lista Postów</h1>
       {transactions.map((transaction: any) => {
         return (
           <div key={transaction.balance} className=" mb-5">
