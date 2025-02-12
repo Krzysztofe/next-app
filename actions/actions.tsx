@@ -1,6 +1,5 @@
-"use server"
+"use server";
 
-export const createPost = () =>{
-
-return
-}
+export const createPost = async (formData: FormData) => {
+  const title = formData.get("title") as string;
+};
