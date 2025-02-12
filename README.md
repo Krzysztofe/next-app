@@ -1,1 +1,1 @@
-[nohup npm start &](http://vps-2c27257b.vps.ovh.ca:3000/)
+http://vps-2c27257b.vps.ovh.ca:3000/
