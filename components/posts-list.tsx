@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+
+
 const PostsList = async () => {
   const resp = await fetch(
     "https://my-json-server.typicode.com/Krzysztofe/transactions_api/db"
